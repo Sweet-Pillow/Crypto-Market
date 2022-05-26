@@ -1,0 +1,5 @@
+let valoresCrypto = fetch('https://www.mercadobitcoin.net/api/BTC/ticker/', { method: 'GET' })
+    .then(response => response.text())
+    .then(texto => console.log(texto))
+    .then(data => {})
+    .catch(err => console.log(err.message))
