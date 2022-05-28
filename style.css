@@ -1,5 +1,19 @@
 body {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
     background: black;
+
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    border: 3px dashed yellow;    
+    margin-bottom: 10px;
 }
 
 h1 {
